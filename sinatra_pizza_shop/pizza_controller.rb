@@ -45,5 +45,5 @@ end
 post('/pizza-orders/:id') do
   @order = PizzaOrder.new(params)
   @order.update()
-  redirect("/pizza-orders/#{@order.id()}")
+  erb( :update )
 end
