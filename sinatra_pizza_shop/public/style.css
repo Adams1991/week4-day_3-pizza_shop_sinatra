@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  background-image:url(./pizza-seamless-pattern-background-pizza-vector-illustration-77208327.jpg);
+
+p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  color: tomato;
+}
